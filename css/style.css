@@ -1,0 +1,113 @@
+/*everything in the html will be these fonts*/
+*{
+  font-family: 'Manrope', sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: none;
+  border: none;
+  text-decoration: none;
+
+}
+
+body {
+  background-color: #c0c0be;
+
+}
+
+header {
+  width: 100%; /*to go from left to right*/
+
+}
+
+header nav ul {
+  /*centers the whole list*/
+  display: block;
+  margin: 0 auto;
+  width: fit-content;
+
+}
+
+header nav ul li {
+  display: inline-block; /*makes list horizontal*/
+  float: left; /*without float, there might be a slight gap between*/
+  list-style: none; /*removing any bullet points */
+  padding: 0 16px; /*top/bottom, left/right */
+
+
+}
+
+header nav ul li a {
+
+  font-size: 18px;
+  color: #c48b7a;
+  text-decoration: none;
+
+}
+
+/*BANNER*/
+.banner {
+  width: 100%;
+  height: calc(100vh - 200px); /*entire height of device */
+  background-image: url('../images/holding-books.jpeg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+/*align entire headings*/
+.vertical-center {
+  align-items: center;
+}
+
+.banner h2{
+  font-size: 20px;
+  font-weight: 900;
+  color: #111;
+  display: block;
+  margin: 0 auto;
+  width: fit-content;
+  padding-top: 50px;
+
+}
+
+.banner h1 {
+  color: #c48b7a;
+  font-family: 'Press Start 2P', cursive;
+  font-size: 54px;
+  padding-top: 20px;
+  text-align: center;
+}
+
+/*ABOUT SECTION*/
+.about-section img {
+  position: relative;
+  max-width: 100%;
+  width: 100%;
+}
+
+.about-section {
+  margin: 0 20px;
+}
+
+.about-section h2 {
+  margin-top: 30px;
+}
+
+.parent1 {
+  position: relative;
+
+}
+
+.extra-gutters {
+  /*top & bottom, left & right*/
+  padding: 0 60px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.extra-gutters h5 p {
+
+}
